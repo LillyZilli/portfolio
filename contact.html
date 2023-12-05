@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic design portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <!--Logo for Header of page-->
+
+        <!--Naviagation menu-->
+  <nav>
+    <ul>
+        <li> <a href="index.html">Home</a></li>
+        <li> <a href="about.html">About</a></li>
+        <li> <a href="products.html">Portfolio</a></li>
+        <li> <a href="contact.html">Contact</a></li> 
+      </ul>
+ </nav>
+   </header>
+<div id="page-container">
+    <div id="content-wrap">
+        <!-- all other page content-->  
+        <!-- Section 1 -->
+        
+       <section>
+        
+    <h1>Fill out the form below with your prefered method of contact</h1>
+    <p>Please allow one business day for us to contact you through this form.</p>
+      <!--Form that can be filled out/selected y-->
+    <form id="customize" method="post" action="">
+       <label for="FLname">First and Last Name:</label> <input type="text" name="FLname" id="FLname"><br>
+       <label for="number">Phone Number:</label> <input type="text" id="number" name="number"> <br>
+       <label for="email">Email Address:</label> <input type="email" id="email" name="email"> <br>
+       <fieldset>
+        <legend>Prefered Method of Contact</legend>
+       <input type=checkbox name=contact value=call> <label for="call">Phone Call</label> <br>
+       <input type=checkbox name=contact value=text> <label for="text">Text Message</label> <br>
+       <input type=checkbox name=contact value=email> <label for="email">Email</label> <br>
+       </fieldset>
+       <br> 
+       <br>
+       <label for="disc">Please provide a brief discription of the service you are looking for:</label>
+       <textarea id="disc" name="disc"></textarea><br><br>
+       <label for="hear">How did you hear about me?</label>
+       <select name="hear" id="hear">
+       <option value="Facebook">Facebook</option>
+       <option value="Twitter">Twitter</option>
+       <option value="local">Local Ad</option>
+       <option value="Referred">Referred</option>
+       <option value="other">Other</option><br>
+       </select><br><br>
+       <input type="submit" value="Submit Responses">
+       </form>
+       <footer>
+        <div class="content-wrap">
+          <!-- Social media and contact links. Add or remove any networks. -->
+          <p>Lets keep in touch!</p>
+            <p>Email me at any time to start a connection! Typically, you should recieve a response within 24 hours, Monday-Friday </p>
+            <a href="mailto:lillianshaver123@gmail.com">lillianshaver123@gmail.com</a>
+            <div class="social">
+              <a href="https://www.pinterest.com/login/">
+              <img src="images/pin1.png" alt="Pinterest Logo">
+              <a href="https://www.linkedin.com/">
+                <img src="images/linkedin1.png" alt="linkedin logo" ">
+                </a>
+              </a>
+            </div>
+         </div> 
+      </footer>
+</body>
+</html>
